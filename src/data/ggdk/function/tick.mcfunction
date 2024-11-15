@@ -1,1 +1,0 @@
-execute as @a if score @s ggdk.var matches 1.. run function ggdk:player/tick
