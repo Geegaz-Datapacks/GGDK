@@ -1,0 +1,47 @@
+{
+	"group": "ggdk:recipes",
+    "type": "minecraft:crafting_shapeless",
+	"ingredients": [
+        "minecraft:potion",
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries"
+    ],
+	"result": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "!minecraft:food": {},
+            "minecraft:item_model": "ggdk:wine",
+            "minecraft:item_name": "{\"translate\": \"ggdk.item.wine\", \"fallback\": \"Wine\"}",
+            "minecraft:max_stack_size": 1,
+            "minecraft:use_remainder": {
+                "id": "minecraft:glass_bottle"
+            },
+            "minecraft:consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "sound": "entity.generic.drink",
+                "on_consume_effects": [
+                    {
+                        "type": "apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:instant_health",
+                                "amplifier": 0,
+                                "duration": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:custom_data": {
+                "ggdk": {
+                    "id": "wine"
+                }
+            }
+        }
+    }
+}

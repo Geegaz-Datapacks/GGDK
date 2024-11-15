@@ -1,0 +1,12 @@
+GGDK Translations,en_us,fr_fr,ru_ru
+ggdk.advancement.title,GGDK (Geegaz's drinks),GGDK (Geegaz's drinks),GGDK (Geegaz's drinks)
+ggdk.advancement.description,Let's drink to us!\n8 new drinks with various effects,Buvons à notre santé !\n8 nouvelles boissons aux effets variés,Выпьем же за нас!\n8 новые напитки с различными эффектами
+ggdk.item.tequila,Tequila,Tequila,Текила
+ggdk.item.vodka,Vodka,Vodka,Водка
+ggdk.item.whiskey,Whiskey,Whiskey,Виски
+ggdk.item.wine,Wine,Vin rouge,Вино
+ggdk.item.beer,Beer,Bière,Пиво
+ggdk.item.cider,Cider,Cidre,Сидр
+ggdk.item.chocolate,Chocolate,Chocolat,Горячий шоколад
+ggdk.item.tea,Tea,Thé,Чай
+death.attack.intoxicated,%s was too drunk to be alive,%s a trop bu pour tenir debout,"%s слишком пьян, что-бы жить"

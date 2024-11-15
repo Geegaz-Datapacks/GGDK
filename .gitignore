@@ -1,0 +1,17 @@
+# VSCode-specific ignores
+.vscode
+*.code-workspace
+
+# Beet
+.beet_cache
+
+# Python
+__pycache__
+
+# Folders
+build/
+*.lnk
+.sources
+
+# Libre Office
+.~lock.*

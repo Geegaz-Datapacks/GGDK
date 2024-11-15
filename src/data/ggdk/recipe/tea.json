@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"ingredients": [
+        "minecraft:potion",
+        "minecraft:string",
+        "minecraft:dried_kelp",
+        "minecraft:short_grass"
+    ],
+	"result": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "!minecraft:food": {},
+            "minecraft:item_model": "ggdk:tea",
+            "minecraft:item_name": "{\"translate\": \"ggdk.item.tea\", \"fallback\": \"Tea\"}",
+            "minecraft:max_stack_size": 1,
+            "minecraft:use_remainder": {
+                "id": "minecraft:glass_bottle"
+            },
+            "minecraft:consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "sound": "entity.generic.drink",
+                "on_consume_effects": [
+                    {
+                        "type": "apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:regeneration",
+                                "amplifier": 0,
+                                "duration": 200
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:custom_data": {
+                "ggdk": {
+                    "id": "tea"
+                }
+            }
+        }
+	}
+}

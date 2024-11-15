@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "ggdk": {
+                                "id": "wine"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ggdk:drink/wine"
+    }
+}

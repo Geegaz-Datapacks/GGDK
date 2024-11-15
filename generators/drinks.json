@@ -1,0 +1,53 @@
+{
+    "tequila": {
+        "alcohol_value": 40,
+        "effects": [
+            {"id":"minecraft:resistance","duration":3000,"amplifier":1},
+            {"id":"minecraft:strength","duration":3000,"amplifier":1}
+        ]
+    },
+    "vodka": {
+        "alcohol_value": 40,
+        "effects": [
+            {"id":"minecraft:resistance","duration":3000,"amplifier":1},
+            {"id":"minecraft:strength","duration":3000,"amplifier":1}
+        ]
+    },
+    "whiskey": {
+        "alcohol_value": 40,
+        "effects": [
+            {"id":"minecraft:resistance","duration":3000,"amplifier":1},
+            {"id":"minecraft:strength","duration":3000,"amplifier":1}
+        ]
+    },
+    "wine": {
+        "alcohol_value": 12,
+        "effects": [
+            {"id":"minecraft:instant_health","duration":1,"amplifier":0}
+        ]
+    },
+    "cider": {
+        "alcohol_value": 3,
+        "effects": [
+            {"id":"minecraft:absorption","duration":6000,"amplifier":0}
+        ]
+    },
+    "beer": {
+        "alcohol_value": 5,
+        "effects": [
+            {"id":"minecraft:saturation","duration":2,"amplifier":0}
+        ]
+    },
+    "chocolate": {
+        "alcohol_value": 0,
+        "effects": [
+            {"id":"minecraft:regeneration","duration":200,"amplifier":0}
+        ]
+    },
+    "tea": {
+        "alcohol_value": 0,
+        "effects": [
+            {"id":"minecraft:regeneration","duration":200,"amplifier":0}
+        ]
+    }
+}
