@@ -1,5 +1,4 @@
 {
-	"group": "ggdk:recipes",
     "type": "minecraft:crafting_shapeless",
 	"ingredients": [
         "minecraft:potion",
@@ -16,6 +15,9 @@
             "!minecraft:food": {},
             "minecraft:item_model": "ggdk:wine",
             "minecraft:item_name": "{\"translate\": \"ggdk.item.wine\", \"fallback\": \"Wine\"}",
+            "minecraft:lore": [
+                "{\"text\":\"12%\", \"color\":\"dark_gray\", \"italic\":false}"
+              ],
             "minecraft:max_stack_size": 1,
             "minecraft:use_remainder": {
                 "id": "minecraft:glass_bottle"
