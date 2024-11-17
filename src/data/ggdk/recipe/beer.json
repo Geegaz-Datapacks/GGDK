@@ -13,6 +13,9 @@
             "!minecraft:food": {},
             "minecraft:item_model": "ggdk:beer",
             "minecraft:item_name": "{\"translate\": \"ggdk.item.beer\", \"fallback\": \"Beer\"}",
+            "minecraft:lore": [
+                "{\"text\":\"5%\", \"color\":\"dark_gray\", \"italic\":false}"
+              ],
             "minecraft:max_stack_size": 1,
             "minecraft:use_remainder": {
                 "id": "minecraft:glass_bottle"
