@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "ggdk:block/neon",
-		"particle": "ggdk:block/neon"
+		"0": "ggdk:block/neon_tube",
+		"particle": "ggdk:block/neon_tube"
 	},
 	"elements": [
 		{

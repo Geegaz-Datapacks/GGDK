@@ -7,13 +7,13 @@
     "load": [
       "src"
     ],
-    "pack_format": 57
+    "pack_format": 59
   },
   "resource_pack": {
     "load": [
       "src"
     ],
-    "pack_format": 42
+    "pack_format": 45
   },
   "require": [
     "beet.contrib.extra_files"
@@ -42,7 +42,18 @@
         "LICENSE_datapack.md"
       ],
       "resource_pack": [
-        "LICENSE_resourcepack.md"
+        "LICENSE_resourcepack.md",
+        "assets/ggdk/items/beer.json",
+        "assets/ggdk/items/chocolate.json",
+        "assets/ggdk/items/cider.json",
+        "assets/ggdk/items/tea.json",
+        "assets/ggdk/items/tequila.json",
+        "assets/ggdk/items/vodka.json",
+        "assets/ggdk/items/whiskey.json",
+        "assets/ggdk/items/wine.json",
+        "assets/ggdk/items/bar_stool.json",
+        "assets/ggdk/items/small_table.json",
+        "assets/ggdk/items/neon_tube.json"
       ]
     }
   }
