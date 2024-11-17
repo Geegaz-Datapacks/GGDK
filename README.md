@@ -1,4 +1,5 @@
-![GGDK - Geegaz's Drinks](img/banner.png)
+![GGDK - Geegaz's Drinks](https://raw.githubusercontent.com/Geegaz-Datapacks/GGDK/main/img/banner.png)
+
 A datapack adding 8 new drinks with various effects and an alcohol mechanic.<br>
 **This datapack requires a resource pack to work.**
 
