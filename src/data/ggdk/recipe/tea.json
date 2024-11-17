@@ -27,7 +27,7 @@
                             {
                                 "id": "minecraft:regeneration",
                                 "amplifier": 0,
-                                "duration": 200
+                                "duration": 400
                             }
                         ]
                     }
