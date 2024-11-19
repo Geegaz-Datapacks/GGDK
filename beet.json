@@ -35,7 +35,6 @@
       }
     },
     "gsheets_translations": {
-      "clear_cache": false,
       "sheet_id": 0,
       "spreadsheet_id": "144mhHsIzvqovH30cmGMgiHWHP_Fb4huwsOg8bK4EghE",
       "output": "ggdk.csv"

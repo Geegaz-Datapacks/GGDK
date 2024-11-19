@@ -2,6 +2,8 @@
 # The drunkness reduces if it's higher than the alcohol
 # Note: Drinks increase the alcohol score, but not the drunkness
 
+execute if score @s ggdk.death matches 1.. run function ggdk:player/clear_drunkness
+
 # Reduce the alcohol score increase increase the drunkness score
 execute if score @s ggdk.alcohol >= $ggdk.consume_speed ggdk.gamerule run function ggdk:player/consume_alcohol
 
