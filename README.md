@@ -45,7 +45,7 @@ After changing the gamerules, use `/function ggdk:gamerule/save` to ensure the g
 For more info, see [this post from Planet Minecraft](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/) on how to install datapacks.
 
 ## Contributing
-You can help translating the datapacks by adding your language to this [Google Sheet](https://docs.google.com/spreadsheets/d/144mhHsIzvqovH30cmGMgiHWHP_Fb4huwsOg8bK4EghE/edit?gid=0#gid=0).
+You can help translating the datapacks by requesting access to this [Google Sheet](https://docs.google.com/spreadsheets/d/144mhHsIzvqovH30cmGMgiHWHP_Fb4huwsOg8bK4EghE/edit?gid=0#gid=0). Once you've gotten access, simply add your language at the top and fill out the translations !
 
 You can report issues in the ["Issues"](https://github.com/Geegaz-Datapacks/GGDK/issues) tab of the repository. Check if your issue has already been reported, and if not create a new one:
 1. Give your issue a descriptive name

@@ -2,7 +2,7 @@
   "author": "Geegaz",
   "description": "A datapack about drinks & alcohol",
   "name": "GGDK",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "data_pack": {
     "load": [
       "src"
@@ -16,7 +16,9 @@
     "pack_format": 45
   },
   "require": [
-    "beet.contrib.extra_files"
+    "beet.contrib.extra_files",
+    "beet.contrib.unknown_files",
+    "plugins.gsheets_translations"
   ],
   "pipeline": [
     "beet.contrib.installation_advancement",
@@ -32,9 +34,15 @@
         }
       }
     },
+    "gsheets_translations": {
+      "clear_cache": false,
+      "sheet_id": 0,
+      "spreadsheet_id": "144mhHsIzvqovH30cmGMgiHWHP_Fb4huwsOg8bK4EghE",
+      "output": "ggdk.csv"
+    },
     "babelbox": {
       "load": [
-        "translations/ggdk.csv"
+        ".beet_cache/translations/ggdk.csv"
       ]
     },
     "extra_files": {
@@ -42,18 +50,7 @@
         "LICENSE_datapack.md"
       ],
       "resource_pack": [
-        "LICENSE_resourcepack.md",
-        "assets/ggdk/items/beer.json",
-        "assets/ggdk/items/chocolate.json",
-        "assets/ggdk/items/cider.json",
-        "assets/ggdk/items/tea.json",
-        "assets/ggdk/items/tequila.json",
-        "assets/ggdk/items/vodka.json",
-        "assets/ggdk/items/whiskey.json",
-        "assets/ggdk/items/wine.json",
-        "assets/ggdk/items/bar_stool.json",
-        "assets/ggdk/items/small_table.json",
-        "assets/ggdk/items/neon_tube.json"
+        "LICENSE_resourcepack.md"
       ]
     }
   }

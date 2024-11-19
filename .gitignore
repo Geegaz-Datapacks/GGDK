@@ -2,16 +2,13 @@
 .vscode
 *.code-workspace
 
-# Beet
-.beet_cache
-
 # Python
 __pycache__
 
 # Folders
 build/
-*.lnk
-.sources
+.sources/
 
-# Libre Office
+# Files
+*.lnk
 .~lock.*
