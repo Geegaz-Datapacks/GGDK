@@ -18,7 +18,6 @@
             "minecraft:lore": [
                 "{\"text\":\"3%\", \"color\":\"dark_gray\", \"italic\":false}"
               ],
-            "minecraft:max_stack_size": 1,
             "minecraft:use_remainder": {
                 "id": "minecraft:glass_bottle"
             },
