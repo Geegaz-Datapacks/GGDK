@@ -2,18 +2,28 @@
   "author": "Geegaz",
   "description": "A datapack about drinks & alcohol",
   "name": "GGDK",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "data_pack": {
+    "zipped": true,
     "load": [
       "src"
     ],
-    "pack_format": 59
+    "pack_format": 60,
+    "supported_formats": [
+      57,
+      60
+    ]
   },
   "resource_pack": {
+    "zipped": true,
     "load": [
       "src"
     ],
-    "pack_format": 45
+    "pack_format": 45,
+    "supported_formats": [
+      42,
+      46
+    ]
   },
   "require": [
     "beet.contrib.extra_files",
@@ -35,6 +45,7 @@
       }
     },
     "gsheets_translations": {
+      "clear_cache": false,
       "sheet_id": 0,
       "spreadsheet_id": "144mhHsIzvqovH30cmGMgiHWHP_Fb4huwsOg8bK4EghE",
       "output": "ggdk.csv"
